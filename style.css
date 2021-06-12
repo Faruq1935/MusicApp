@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
 }
 *::before, *::after{
   padding: 0;
@@ -196,7 +197,7 @@ body{
   box-shadow: 0px -5px 10px rgba(0,0,0,0.1);
   transition: all 0.15s ease-out;
 }
-.music-list .show{
+.music-list.show{
   bottom: 0;
   opacity: 1;
   pointer-events: auto;
@@ -215,7 +216,7 @@ body{
 }
 .header #close{
   font-size: 22px;
-  color: var(--darkblue);
+  color: var(--darkblue6);
 }
 .music-list ul{
   margin: 10px 0;
@@ -223,7 +224,7 @@ body{
   overflow: auto;
 }
 .music-list ul::-webkit-scrollbar{
-  width: 0;
+  width: 0px;
 }
 .music-list ul li{
   list-style: none;
@@ -235,7 +236,7 @@ body{
   border-bottom: 1px solid #E5E5E5;
 }
 .music-list ul li:last-child{
-  border-bottom: 0;
+  border-bottom: 0px;
 }
 .music-list ul li .row span{
   font-size: 17px;
